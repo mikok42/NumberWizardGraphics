@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
- 
     @IBOutlet var labelCollection: [UILabel]!
     @IBOutlet var buttonOutlet: [UIButton]!
       
