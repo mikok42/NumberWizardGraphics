@@ -9,21 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
  
-
     @IBOutlet var labelCollection: [UILabel]!
     @IBOutlet var buttonOutlet: [UIButton]!
-    
-
-    
+      
     @IBOutlet weak var winLabel: UILabel!
     @IBOutlet weak var guessField: UILabel!
     
     func makeDissappear(){
         labelCollection.forEach{element in
             element.alpha = 0
-            
         }
-        
         buttonOutlet.forEach{element in
             element.alpha = 0
         }
@@ -53,8 +48,6 @@ class ViewController: UIViewController {
         
         makeDissappear()
     }
-    
-    
     
 }
 
