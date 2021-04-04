@@ -8,11 +8,11 @@ class NumberWizard {
     
     var wizGuess = 0
     
-    private func changeMin(newMin: Int) {
+     func changeMin(newMin: Int) {
         min = newMin
     }
     
-    private func changeMax(newMax: Int) {
+     func changeMax(newMax: Int) {
         max = newMax
     }
     
@@ -26,7 +26,7 @@ class NumberWizard {
             """)
     }
     
-    private func nextGuess() -> Int{
+     func nextGuess() -> Int{
         wizGuess = Int.random(in: min...max)
         return wizGuess
     }

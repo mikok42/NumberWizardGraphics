@@ -13,6 +13,7 @@
 		D07F80252619F7AB00D5C9B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07F80232619F7AB00D5C9B3 /* Main.storyboard */; };
 		D07F80272619F7AE00D5C9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07F80262619F7AE00D5C9B3 /* Assets.xcassets */; };
 		D07F802A2619F7AE00D5C9B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07F80282619F7AE00D5C9B3 /* LaunchScreen.storyboard */; };
+		D07F80332619FEBD00D5C9B3 /* numberWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F80322619FEBD00D5C9B3 /* numberWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D07F80262619F7AE00D5C9B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07F80292619F7AE00D5C9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D07F802B2619F7AE00D5C9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07F80322619FEBD00D5C9B3 /* numberWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = numberWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D07F801D2619F7AB00D5C9B3 /* AppDelegate.swift */,
 				D07F801F2619F7AB00D5C9B3 /* SceneDelegate.swift */,
 				D07F80212619F7AB00D5C9B3 /* ViewController.swift */,
+				D07F80322619FEBD00D5C9B3 /* numberWizard.swift */,
 				D07F80232619F7AB00D5C9B3 /* Main.storyboard */,
 				D07F80262619F7AE00D5C9B3 /* Assets.xcassets */,
 				D07F80282619F7AE00D5C9B3 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				D07F80222619F7AB00D5C9B3 /* ViewController.swift in Sources */,
 				D07F801E2619F7AB00D5C9B3 /* AppDelegate.swift in Sources */,
 				D07F80202619F7AB00D5C9B3 /* SceneDelegate.swift in Sources */,
+				D07F80332619FEBD00D5C9B3 /* numberWizard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
