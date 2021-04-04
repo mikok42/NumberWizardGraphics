@@ -83,7 +83,20 @@
                         <outlet property="higherButtonOutlet" destination="Qvl-W8-Fnf" id="tCB-d3-cHR"/>
                         <outlet property="isYourNLabel" destination="5y4-b0-IXW" id="ofc-Gy-Yaa"/>
                         <outlet property="lowerButtonOutlet" destination="Fd0-bj-YyQ" id="eXw-E7-DZ8"/>
+                        <outlet property="outlets" destination="oVy-Ya-q9z" id="utB-mH-WZo"/>
                         <outlet property="winLabel" destination="wrF-vH-ATr" id="4QD-Yn-BFf"/>
+                        <outletCollection property="labelsOutlets" destination="5y4-b0-IXW" collectionClass="NSMutableArray" id="ZxQ-zQ-SnG"/>
+                        <outletCollection property="labelsOutlets" destination="wrF-vH-ATr" collectionClass="NSMutableArray" id="YZD-Cg-Rlw"/>
+                        <outletCollection property="labelsOutlets" destination="wrF-vH-ATr" collectionClass="NSMutableArray" id="VK6-qG-Mhg"/>
+                        <outletCollection property="labelsOutlets" destination="5y4-b0-IXW" collectionClass="NSMutableArray" id="Jqe-VU-LFr"/>
+                        <outletCollection property="labelsOutlets" destination="6p5-1L-9i7" collectionClass="NSMutableArray" id="xkZ-bf-BZf"/>
+                        <outletCollection property="labelsOutlet" destination="wrF-vH-ATr" collectionClass="NSMutableArray" id="VKD-PU-C82"/>
+                        <outletCollection property="labelCollection" destination="5y4-b0-IXW" collectionClass="NSMutableArray" id="E8G-qe-c53"/>
+                        <outletCollection property="labelCollection" destination="6p5-1L-9i7" collectionClass="NSMutableArray" id="Cs9-YN-NDo"/>
+                        <outletCollection property="buttonOutlet" destination="Fd0-bj-YyQ" collectionClass="NSMutableArray" id="2CN-09-BnV"/>
+                        <outletCollection property="buttonOutlet" destination="oVy-Ya-q9z" collectionClass="NSMutableArray" id="9MR-Ue-hQw"/>
+                        <outletCollection property="buttonOutlet" destination="Qvl-W8-Fnf" collectionClass="NSMutableArray" id="kRg-Ob-IRl"/>
+                        <outletCollection property="buttonOutlet" destination="Fd0-bj-YyQ" collectionClass="NSMutableArray" id="DWS-Tq-0Ty"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
